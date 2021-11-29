@@ -25,8 +25,6 @@
 * [:white_check_mark: To-Do](#white_check_mark-to-do)
 * [:memo: Reference](#memo-reference)
 
----
-
 ## :tada: About the Project
 
 ### Introduce
@@ -43,8 +41,8 @@ I simplified some details which exists in real world.
 * Only one cash type, 1 dollor bill
 * Required to insert card again to restart transaction
 * Receiving amounts only with screen display, not with key pad
-* Handling error with conditional statment, not with try-exception because it used fake API and functinos
 * Required to insert card and enter PIN number to select any transactions
+* Handling error with conditional statment, not with try-exception because it used fake API and functinos
 
 ### Fake API and Functions
 
