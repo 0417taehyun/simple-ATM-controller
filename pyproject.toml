@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "simple-atm-controller"
+version = "1"
+description = "Simple ATM Controller for Bear Robotics assessment"
+authors = ["Taehyun Lee <0417taehyun@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^1.8.2"
+python-dotenv = "^0.19.2"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.10.1"
+black = "^21.11b1"
+flake8 = "^4.0.1"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
