@@ -158,6 +158,8 @@ Or you can check all of test codes with [test_atm.py](src/test/test_atm.py)
 
 Here are some tasks needed to do in the future.
 
+* [ ] Middleware
+    * Logging middleware to log each transaction of timestamp and result
 * [ ] Create policies
     * Service fee
     * Response Template, both success and error cases
@@ -182,7 +184,7 @@ Here are some tasks needed to do in the future.
 * [ ] Integrate with a real card reader machine
     * To vlidate a card
 * [ ] Integrate with a real database or monitoring system
-    * To discuss of buisness model and policy
+    * To discuss of buisness model and policy by checking timestamp and location of ATM
 
 <p align="right">⬆️ <a href="#top">Back to Top</a></p>
 
